@@ -179,7 +179,7 @@ SCHEDULE
 Show the workshop's schedule.  Edit the items and times in the table
 to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
-{% endcomment %}
+
 <h2 id="schedule">Schedule</h2>
 
 {% if page.carpentry == "swc" %}
@@ -189,7 +189,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% elsif page.carpentry == "lc" %}
 {% include lc/schedule.html %}
 {% endif %}
-
+{% endcomment %}
 {% comment %}
 Collaborative Notes
 
@@ -225,6 +225,7 @@ This is one of the places where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
+
 <h2 id="syllabus">Syllabus</h2>
 <div class="row">
   <div class="col-md-6">
