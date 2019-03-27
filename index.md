@@ -3,7 +3,7 @@ layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
                       # Be sure to update the Carpentry type in _config.yml as well.  
 venue: "Edinburgh College of Art"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Evolution House"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "Evolution House: Room 2.13"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "UK"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "English"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latlng: "55.946196, -3.200213"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
@@ -17,67 +17,27 @@ email: ["matt.hamilton@ed.ac.uk"]    # boxed, comma-separated list of contact em
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-{% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
-
-{% comment %}
-HEADER
-
-Edit the values in the block above to be appropriate for your workshop.
-If the value is not 'true', 'false', 'null', or a number, please use
-double quotation marks around the value, unless specified otherwise.
-And run 'make workshop-check' *before* committing to make sure that changes are good.
-{% endcomment %}
-
-
-
-{% comment %}
-For a workshop please delete the following block
-{% endcomment %}
-
-{% if page.carpentry != site.carpentry %}
-<div class="alert alert-warning">
-You specified <code>carpentry: {{page.carpentry}}</code> in <code>index.md</code> and
-<code>carpentry: {{site.carpentry}}</code> in <code>_config.yml</code>. Make sure you edit both files. After editing <code>_config.yml</code>, you need to run <code>make serve</code> again to
-see the changes take effect locally.
-</div>
-{% endif %}
-
-{% comment %}
-EVENTBRITE
-
-This block includes the Eventbrite registration widget if
-'eventbrite' has been set in the header.  You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be
-displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
-{% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
-{% endif %}
-
 
 <h2 id="general">General Information</h2>
 
-{% comment %}
-INTRODUCTION
+<p>
+  <a href="{{site.swc_site}}">Software Carpentry</a>
+  aims to help researchers get their work done
+  in less time and with less pain
+  by teaching them basic research computing skills.
+  This hands-on workshop will cover the principles of using Git
+  for version control and LaTeX for typesetting.
+  We encourage you to help one another
+  and to apply what they you learned to your own research problems.
+</p>
+<p align="center">
+  <em>
+    For more information on Software Carpentries,
+    please see this paper
+    "<a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745">Best Practices for Scientific Computing</a>".
+  </em>
+</p>
 
-Edit the general explanatory paragraph below if you want to change
-the pitch.
-{% endcomment %}
-{% if page.carpentry == "swc" %}
-{% include sc/intro.html %}
-{% elsif page.carpentry == "dc" %}
-{% include dc/intro.html %}
-{% elsif page.carpentry == "lc" %}
-{% include lc/intro.html %}
-{% endif %}
 
 {% comment %}
 AUDIENCE
@@ -542,7 +502,7 @@ please preview your site before committing, and make sure to run
   TeX system with LaTeX itself and editors to write documents.</p>
 </div>
 <div class="col cell1of4">
-  <h2><span class="fa fa-windows"></span> Windows</h2>
+  <h2><i class="fab fa-windows"></i> Windows</h2>
   <p>Check out the <a href="http://miktex.org/">MiKTeX</a>
   or <a href="http://www.tug.org/protext/">proTeXt</a>
   or <a href="http://www.tug.org/texlive">TeX Live</a>
