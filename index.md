@@ -235,7 +235,7 @@ please preview your site before committing, and make sure to run
     that may be useful on the
     <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
-
+<hr/>
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
     <h3>The Bash Shell</h3>
 
@@ -327,7 +327,7 @@ please preview your site before committing, and make sure to run
         </div>
     </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
-
+<hr/>
 <div id="git"> {% comment %} Start of 'Git' section. {% endcomment %}
     <h3>Git</h3>
     <p>
@@ -391,7 +391,7 @@ please preview your site before committing, and make sure to run
         </div>
     </div>
 </div> {% comment %} End of 'Git' section. {% endcomment %}
-
+<hr/>
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
     <h3>Text Editor</h3>
 
@@ -456,7 +456,7 @@ please preview your site before committing, and make sure to run
         </div>
     </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
-
+<hr/>
 <div id="editor"> {% comment %} Start of 'LaTeX' section. {% endcomment %}
     <h3>LaTeX</h3>
     <p>
