@@ -311,96 +311,92 @@ please preview your site before committing, and make sure to run
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
+
   <p>
     Bash is a commonly-used shell that gives you the power to do simple
     tasks more quickly.
   </p>
 
-  <div>
-    <ul class="nav nav-tabs nav-justified" role="tablist">
-      <li role="presentation" class="active"><a data-os="windows" href="#shell-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
-      <li role="presentation"><a data-os="macos" href="#shell-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
-      <li role="presentation"><a data-os="linux" href="#shell-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
-    </ul>
-
-    <div class="tab-content">
-      <article role="tabpanel" class="tab-pane active" id="shell-windows">
-        <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
-        <ol>
-          <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
-          <li>Run the installer and follow the steps below:
-            <ol>
-              {% comment %} Git 2.18.0 Setup {% endcomment %}
-              <li>
+  <div class="row">
+    <div class="col-md-4">
+      <h4 id="shell-windows">Windows</h4>
+      <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
+      <ol>
+        <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
+        <li>Run the installer and follow the steps below:
+          <ol>
+            {% comment %} Git 2.18.0 Setup {% endcomment %}
+            <li>
                 Click on "Next" four times (two times if you've previously
                 installed Git).  You don't need to change anything
                 in the Information, location, components, and start menu screens.
-              </li>
-              <li>
+            </li>
+            <li>
                 <strong>
-                  Select "Use the nano editor by default" and click on "Next".
+                Select “Use the nano editor by default” and click on “Next”.
                 </strong>
-              </li>
-              {% comment %} Adjusting your PATH environment {% endcomment %}
-              <li>
-                Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
+            </li>
+            {% comment %} Adjusting your PATH environment {% endcomment %}
+            <li>
+                Keep "Use Git from the command line and..." selected and click on "Next".
                 If you forgot to do this programs that you need for the workshop will not work properly.
                 If this happens rerun the installer and select the appropriate option.
-              </li>
-              {% comment %} Choosing the SSH executable {% endcomment %}
-              <li>Click on "Next".</li>
-              {% comment %} Configuring the line ending conversions {% endcomment %}
-              <li>
+            </li>
+            {% comment %} Choosing the SSH executable {% endcomment %}
+            <li>Click on "Next".</li>
+            {% comment %} Configuring the line ending conversions {% endcomment %}
+            <li>
                 Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
-              </li>
-              {% comment %} Configuring the terminal emulator to use with Git Bash {% endcomment %}
-              <li>
-                <strong>
-                  Select "Use Windows' default console window" and click on "Next".
-                </strong>
-              </li>
-              {% comment %} Configuring experimental performance tweaks {% endcomment %}
-              <li>Click on "Install".</li>
-              {% comment %} Installing {% endcomment %}
-              {% comment %} Completing the Git Setup Wizard {% endcomment %}
-              <li>Click on "Finish".</li>
-            </ol>
-          </li>
-          <li>
-            If your "HOME" environment variable is not set (or you don't know what this is):
-            <ol>
-              <li>Open command prompt (Open Start Menu then type <code>cmd</code> and press [Enter])</li>
-              <li>
-                Type the following line into the command prompt window exactly as shown:
-                <p><code>setx HOME "%USERPROFILE%"</code></p>
-              </li>
-              <li>Press [Enter], you should see <code>SUCCESS: Specified value was saved.</code></li>
-              <li>Quit command prompt by typing <code>exit</code> then pressing [Enter]</li>
-            </ol>
-          </li>
-        </ol>
-        <p>This will provide you with both Git and Bash in the Git Bash program.</p>
-      </article>
-      <article role="tabpanel" class="tab-pane active" id="shell-macos">
-        <p>
-          The default shell in all versions of macOS is Bash, so no
-          need to install anything.  You access Bash from the Terminal
-          (found in
-          <code>/Applications/Utilities</code>).
-          See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
-          for an example on how to open the Terminal.
-          You may want to keep
-          Terminal in your dock for this workshop.
-        </p>
-      </article>
-      <article role="tabpanel" class="tab-pane active" id="shell-linux">
-        <p>
-          The default shell is usually Bash, but if your
-          machine is set up differently you can run it by opening a
-          terminal and typing <code>bash</code>.  There is no need to
-          install anything.
-        </p>
-      </article>
+            </li>
+            {% comment %} Configuring the terminal emulator to use with Git Bash {% endcomment %}
+            <li>
+              <strong>
+                Select "Use Windows' default console window" and click on "Next".
+              </strong>
+            </li>
+            {% comment %} Configuring experimental performance tweaks {% endcomment %}
+            <li>Click on "Install".</li>
+            {% comment %} Installing {% endcomment %}
+            {% comment %} Completing the Git Setup Wizard {% endcomment %}
+            <li>Click on "Finish".</li>
+          </ol>
+        </li>
+        <li>
+          If your "HOME" environment variable is not set (or you don't know what this is):
+          <ol>
+            <li>Open command prompt (Open Start Menu then type <code>cmd</code> and press [Enter])</li>
+            <li>
+              Type the following line into the command prompt window exactly as shown:
+              <p><code>setx HOME "%USERPROFILE%"</code></p>
+            </li>
+            <li>Press [Enter], you should see <code>SUCCESS: Specified value was saved.</code></li>
+            <li>Quit command prompt by typing <code>exit</code> then pressing [Enter]</li>
+          </ol>
+        </li>
+      </ol>
+      <p>This will provide you with both Git and Bash in the Git Bash program.</p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="shell-macosx">macOS</h4>
+      <p>
+        The default shell in all versions of macOS is Bash, so no
+        need to install anything.  You access Bash from the Terminal
+        (found in
+        <code>/Applications/Utilities</code>).
+        See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
+        for an example on how to open the Terminal.
+        You may want to keep
+        Terminal in your dock for this workshop.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="shell-linux">Linux</h4>
+      <p>
+        The default shell is usually Bash, but if your
+        machine is set up differently you can run it by opening a
+        terminal and typing <code>bash</code>.  There is no need to
+        install anything.
+      </p>
     </div>
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
@@ -536,7 +532,8 @@ please preview your site before committing, and make sure to run
 </div> {% comment %} End of 'editor' section. {% endcomment %}
 
 <div id="editor"> {% comment %} Start of 'LaTeX' section. {% endcomment %}
-<h3>Text Editor</h3>
+<h3>LaTeX</h3>
+
 <div class="row">
 <div class="col cell1of4">
     <h2><span class="fa fa-linux"></span> Linux</h2>
