@@ -348,8 +348,11 @@ please preview your site before committing, and make sure to run
             for keeping your email address private</a> provided at GitHub.
     </p>
     <h4>GitHub Desktop App <i class="fab fa-github"></i></h4>
+
     <p>
-    As a solo developer who wishes to version control, you will likely not need more than the <a href="https://desktop.github.com">GitHub Desktop App</a>. We will be using this app to begin with, so follow the instructions for installing the app</p>
+    As a solo developer who wishes to version control, you will likely not need more than the <a href="https://desktop.github.com">GitHub Desktop App</a>. We will be using this app to begin with, so follow the instructions for installing the app
+    </p>
+
     <div class="row">
         <div class="col-md-4">
             <h4 id="git-windows"><i class="fab fa-windows"></i> Windows</h4>
@@ -403,6 +406,10 @@ please preview your site before committing, and make sure to run
         return to the shell.
     </p>
 
+    <p>
+        For this session we recommend installing <a href="https://atom.io">Atom</a> as it is a versatile text editor with syntax highlighting available for most programming languages.
+    </p>
+    
     <div class="row">
         <div class="col-md-4">
             <h4 id="editor-windows"><i class="fab fa-windows"></i> Windows</h4>
