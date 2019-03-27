@@ -246,7 +246,7 @@ please preview your site before committing, and make sure to run
 
     <div class="row">
         <div class="col-md-4">
-            <h4 id="shell-windows">Windows</h4>
+            <h4 id="shell-windows"><i class="fab fa-windows"></i> Windows</h4>
             <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
             <ol>
                 <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
@@ -304,7 +304,7 @@ please preview your site before committing, and make sure to run
             <p>This will provide you with both Git and Bash in the Git Bash program.</p>
         </div>
         <div class="col-md-4">
-            <h4 id="shell-macosx">macOS</h4>
+            <h4 id="shell-macosx"><i class="fab fa-apple"></i> macOS</h4>
             <p>
                 The default shell in all versions of macOS is Bash, so no
                 need to install anything.  You access Bash from the Terminal
@@ -317,7 +317,7 @@ please preview your site before committing, and make sure to run
             </p>
         </div>
         <div class="col-md-4">
-            <h4 id="shell-linux">Linux</h4>
+            <h4 id="shell-linux"><i class="fab fa-linux"></i> Linux</h4>
             <p>
                 The default shell is usually Bash, but if your
                 machine is set up differently you can run it by opening a
@@ -347,17 +347,20 @@ please preview your site before committing, and make sure to run
         <a href="https://help.github.com/articles/keeping-your-email-address-private/">instructions
             for keeping your email address private</a> provided at GitHub.
     </p>
-
+    <h4>GitHub Desktop App <i class="fab fa-github"></i></h4>
+    <p>
+    As a solo developer who wishes to version control, you will likely not need more than the <a href="https://desktop.github.com">GitHub Desktop App<a/>. We will be using this app to begin with, so follow the instructions for installing the app.
+    </p>
     <div class="row">
         <div class="col-md-4">
-            <h4 id="git-windows">Windows</h4>
+            <h4 id="git-windows"><i class="fab fa-windows"></i> Windows</h4>
             <p>
                 Git should be installed on your computer as part of your Bash
                 install (described above).
             </p>
         </div>
         <div class="col-md-4">
-            <h4 id="git-macosx">macOS</h4>
+            <h4 id="git-macosx"><i class="fab fa-apple"></i> macOS</h4>
             <p>
                 Please open the Terminal app, type <code>git --version</code> and press
                 <kbd>Enter</kbd>/<kbd>Return</kbd>. If it's not installed already,
@@ -376,7 +379,7 @@ please preview your site before committing, and make sure to run
             </p>
         </div>
         <div class="col-md-4">
-            <h4 id="git-linux">Linux</h4>
+            <h4 id="git-linux"><i class="fab fa-linux"></i>Linux</h4>
             <p>
                 If Git is not already available on your machine you can try to
                 install it via your distro's package manager. For Debian/Ubuntu run
