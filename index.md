@@ -226,14 +226,33 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 <h2 id="syllabus">Syllabus</h2>
+<div class="row">
+  <div class="col-md-6">
+    <h3 id="syllabus-git">Version Control with Git</h3>
+    <ul>
+      <li>Creating a Repository</li>
+      <li>Recording Changes to Files: <code>add</code>, <code>commit</code>, ...</li>
+      <li>Viewing Changes: <code>status</code>, <code>diff</code>, ...</li>
+      <li>Ignoring Files</li>
+      <li>Working on the Web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
+      <li>Resolving Conflicts</li>
+      <li>Open Licenses</li>
+      <li>Where to Host Work, and Why</li>
+      <li><a href="{{site.swc_pages}}/git-novice/reference">Reference...</a></li>
+    </ul>
+  </div>
 
-{% if page.carpentry == "swc" %}
-{% include sc/syllabus.html %}
-{% elsif page.carpentry == "dc" %}
-{% include dc/syllabus.html %}
-{% elsif page.carpentry == "lc" %}
-{% include lc/syllabus.html %}
-{% endif %}
+  <div class="col-md-6">
+    <h3 id="syllabus-python">Typesetting in LaTeX</h3>
+    <ul>
+      <li>Building a LaTeX Project</li>
+      <li>Formatting equations and images</li>
+      <li>Citations with BibTeX</li>
+      <li>Using Packages</li>      
+    </ul>
+  </div>
+</div>
+
 
 <hr/>
 
@@ -483,7 +502,11 @@ please preview your site before committing, and make sure to run
 
 <div id="editor"> {% comment %} Start of 'LaTeX' section. {% endcomment %}
     <h3>LaTeX</h3>
+    <p>
+    LaTeX is a high-quality typesetting system designed for the production of technical and scientific documentation.
+    LaTeX is the de facto standard for the communication and publication of scientific documents.
 
+    </p>
     <div class="row">
         <div class="col-md-4">
             <h4 id="editor-windows"><i class="fab fa-windows"></i> Windows</h4>
