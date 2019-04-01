@@ -496,5 +496,5 @@ please preview your site before committing, and make sure to run
 
     <h3>BibTeX</h3>
     <p>On of the powerful aspects of LaTeX is bibliography management using BibTeX. Bibliography files (\*.bib) are most easily edited and modified using a management system. These graphical user interfaces all feature a database form, where information is entered for each reference item, and the resulting text file can be used directly by BibTeX.</p>
-    <p>For this session we will be using <a href="http://www.jabref.org>JabRef</a>.</p>
+    <p>For this session we will be using <a href="http://www.jabref.org">JabRef</a>.</p>
 </div> {% comment %} End of 'LaTeX' section. {% endcomment %}
