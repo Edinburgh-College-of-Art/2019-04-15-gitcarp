@@ -475,7 +475,7 @@ please preview your site before committing, and make sure to run
                 itself and editors to write documents.</p>
         </div>
         <div class="col-md-4">
-            <h4 id="editor-macosx"><i class="fab fa-apple"></i> Mac OS</h4>
+            <h4 id="editor-macosx"><i class="fab fa-apple"></i> macOS</h4>
             <p>The <a href="http://www.tug.org/mactex/">MacTeX</a>
                 distribution contains everything you need, including a complete
                 TeX system with LaTeX itself and editors to write documents.
