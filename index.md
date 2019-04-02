@@ -12,7 +12,7 @@ humantime: "13:00 - 14:30"    # human-readable times for the workshop (e.g., "9:
 startdate: April 15th 2019      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: April 15th 2019        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Matthew Hamilton"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: [""]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Brian Hamilton (No Relation)"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["matt.hamilton@ed.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -21,14 +21,13 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <h2 id="general">General Information</h2>
 
 <p>
-    <a href="{{site.swc_site}}">Software Carpentry</a>
-    aims to help researchers get their work done
-    in less time and with less pain
-    by teaching them basic research computing skills.
     This hands-on workshop will cover the principles of using Git
     for version control and LaTeX for typesetting.
     We encourage you to help one another
     and to apply what they you learned to your own research problems.
+    This tutorial is based on the principles of <a href="{{site.swc_site}}">Software Carpentry</a>, which aims to help researchers get their work done
+    in less time and with less pain
+    by teaching them basic research computing skills.
 </p>
 <p align="center">
     <em>
@@ -469,10 +468,8 @@ please preview your site before committing, and make sure to run
         <div class="col-md-4">
             <h4 id="editor-windows"><i class="fab fa-windows"></i> Windows</h4>
             <p>Check out the <a href="http://miktex.org/">MiKTeX</a>
-                or <a href="http://www.tug.org/protext/">proTeXt</a>
-                or <a href="http://www.tug.org/texlive">TeX Live</a>
-                distributions; they contain a complete TeX system with LaTeX
-                itself and editors to write documents.</p>
+              and it's associated editor, TeXWorks.
+              </p>
         </div>
         <div class="col-md-4">
             <h4 id="editor-macosx"><i class="fab fa-apple"></i> macOS</h4>
