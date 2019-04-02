@@ -490,7 +490,15 @@ please preview your site before committing, and make sure to run
                 for details.</p>
         </div>
     </div>
-
+    <h4><i class="fas fa-atom"></i> Atom</h4>
+    <p>
+    After you have installed on of the above LaTeX distributions, I would highly recommend using Atom. There are a couple of packages that need to be installed, but the benefits out-weigh the inconvenience. You will need to download the following packages:    
+    </p>
+    <ul>
+      <li><a href="https://atom.io/packages/latex">Latex</a> compile tool by thomasjo</li>
+      <li><a href="https://atom.io/packages/latex-autocomplete">latex-autocomplete</a> by evpok</li>
+      <li><a href="https://atom.io/packages/language-latex">Language-LaTeX</a> by area</li>      
+    </ul>
     <h3>BibTeX</h3>
     <p>On of the powerful aspects of LaTeX is bibliography management using BibTeX. Bibliography files (\*.bib) are most easily edited and modified using a management system. These graphical user interfaces all feature a database form, where information is entered for each reference item, and the resulting text file can be used directly by BibTeX.</p>
     <p>For this session we will be using <a href="http://www.jabref.org">JabRef</a>.</p>
