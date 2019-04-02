@@ -492,7 +492,7 @@ please preview your site before committing, and make sure to run
     </div>
     <h4><i class="fas fa-atom"></i> Atom</h4>
     <p>
-    After you have installed on of the above LaTeX distributions, I would highly recommend using Atom. There are a couple of packages that need to be installed, but the benefits out-weigh the inconvenience. You will need to download the following packages:    
+    After you have installed one of the above LaTeX distributions, I would highly recommend using Atom. There are a couple of packages that need to be installed, but the benefits out-weigh the inconvenience. You will need to download the following packages:    
     </p>
     <ul>
       <li><a href="https://atom.io/packages/latex">Latex</a> compile tool by thomasjo</li>
