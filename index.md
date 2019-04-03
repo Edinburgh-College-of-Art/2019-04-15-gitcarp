@@ -467,7 +467,7 @@ please preview your site before committing, and make sure to run
     <div class="row">
         <div class="col-md-4">
             <h4 id="editor-windows"><i class="fab fa-windows"></i> Windows</h4>
-            <p>Check out the <a href="http://miktex.org/">MiKTeX</a>
+            <p>Check out the <a href="http://miktex.org/">MiKTeX</a> distribution
               and it's associated editor, TeXWorks.
               </p>
         </div>
