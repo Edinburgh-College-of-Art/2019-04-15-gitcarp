@@ -492,7 +492,7 @@ please preview your site before committing, and make sure to run
     </ul>
     <p>
     NB: Windows users may want to download <a href="https://www.tug.org/texlive/acquire-netinstall.html">TexLive</a> if they are having trouble with getting atom to work with LaTeX.
-    <p>
+    </p>
     <h3>BibTeX</h3>
     <p>On of the powerful aspects of LaTeX is bibliography management using BibTeX. Bibliography files (\*.bib) are most easily edited and modified using a management system. These graphical user interfaces all feature a database form, where information is entered for each reference item, and the resulting text file can be used directly by BibTeX.</p>
     <p>For this session we will be using <a href="http://www.jabref.org">JabRef</a>.</p>
