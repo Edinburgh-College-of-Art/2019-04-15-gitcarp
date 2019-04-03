@@ -218,6 +218,9 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
+<strong>OS:</strong> First off, let us know which operating system you are using in <a href="https://doodle.com/poll/gttcbmqn8hr6k58r">this poll</a>. This will make it a lot easier to debug problems in advance
+</p>
+<p>
     To participate in you will need access to the software described below.
     In addition, you will need an up-to-date web browser.
 </p>
@@ -226,6 +229,7 @@ please preview your site before committing, and make sure to run
     that may be useful on the
     <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
+
 <hr/>
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
     <h3>The Bash Shell</h3>
