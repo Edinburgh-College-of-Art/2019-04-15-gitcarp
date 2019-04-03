@@ -98,7 +98,7 @@ Modify the block below if there are any special requirements.
 CODE OF CONDUCT
 {% endcomment %}
 <p id="code-of-conduct">
-    <strong>Code of Conduct:</strong>  Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
+    <strong>Code of Conduct:</strong>  Everyone who participates is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
 </p>
 
 
@@ -218,16 +218,7 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
-    To participate in a
-    {% if page.carpentry == "swc" %}
-    Software Carpentry
-    {% elsif page.carpentry == "dc" %}
-    Data Carpentry
-    {% elsif page.carpentry == "lc" %}
-    Library Carpentry
-    {% endif %}
-    workshop,
-    you will need access to the software described below.
+    To participate in you will need access to the software described below.
     In addition, you will need an up-to-date web browser.
 </p>
 <p>
