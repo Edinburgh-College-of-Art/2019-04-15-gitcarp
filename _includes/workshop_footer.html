@@ -1,29 +1,18 @@
-
-  Footer for a standard workshop.
-
+{% comment %}
+Footer for a standard workshop.
+{% endcomment %}
 <footer>
   <div class="row">
-          {% comment %}
     <div class="col-md-6" align="left">
-
       <h4>
-	Copyright &copy; 2016–{{ 'now' | date: "%Y" }}
-	{% if site.carpentry == "swc" %}
-	<a href="{{ site.swc_site }}">Software Carpentry</a>
-	{% elsif site.carpentry == "dc" %}
-	<a href="{{ site.dc_site }}">Data Carpentry</a>
-	{% elsif site.carpentry == "lc" %}
-	<a href="{{ site.lc_site }}">Library Carpentry</a>
-	{% elsif site.carpentry == "cp" %}
-	<a href="{{ site.carpentries_site }}">The Carpentries</a>
-	{% endif %}
+        Contact: <a href="mailto:matt.hamilton@ed.ac.uk?subject=Git/Latex">Matthew Hamilton</a>
       </h4>
     </div>
     <div class="col-md-6" align="right">
       <h4>
-	<a href="mailto:{{ site.email }}">Contact The Carpentries</a>
+        <a href="https://github.com/Edinburgh-College-of-Art/LaTeX-and-Git"><i class="fab fa-github"></i> GitHub Repository</a>
       </h4>
     </div>
-    {% endcomment %}
+
   </div>
 </footer>
