@@ -485,6 +485,12 @@ please preview your site before committing, and make sure to run
                 for details.</p>
         </div>
     </div>
+
+    <h4><i class="fas fa-globe"></i> Online</h4>
+    <p>
+     <a href="https://www.overleaf.com/">Overleaf</a> is a great tool for getting started with LaTeX quickly. Sadly, git integration comes at a premium, but the basic LaTeX functionality is free.
+    </p>
+    
     <h4><i class="fas fa-atom"></i> Atom</h4>
     <p>
     After you have installed one of the above LaTeX distributions, I would highly recommend using Atom. There are a couple of packages that need to be installed, but the benefits out-weigh the inconvenience. You will need to download the following packages:    
